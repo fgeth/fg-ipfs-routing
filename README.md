@@ -19,7 +19,7 @@
 `go-ipfs-routing` works like a set of regular Go packages:
 
 ```
-> go get github.com/ipfs/go-ipfs-routing/...
+> go get fgeth/fg-ipfs-routing/...
 ```
 
 This module uses [Gx](https://github.com/whyrusleeping/gx) to manage
@@ -31,10 +31,10 @@ This repo contains 3 different packages.
 
 ### Mock
 
-[![GoDoc](https://godoc.org/github.com/ipfs/go-ipfs-routing/mock?status.svg)](https://godoc.org/github.com/ipfs/go-ipfs-routing/mock)
+[![GoDoc](https://godoc.org/github.com/fgeth/fg-ipfs-routing/mock?status.svg)](https://godoc.org/github.com/fgeth/fg-ipfs-routing/mock)
 
 ```
-import "github.com/ipfs/go-ipfs-routing/mock"
+import "github.com/fgeth/fg-ipfs-routing/mock"
 ```
 
 Mock is a fake router useful for tests. It provides a mock client that
@@ -44,10 +44,10 @@ retrieves routing records.
 
 ### Offline
 
-[![GoDoc](https://godoc.org/github.com/ipfs/go-ipfs-routing/offline?status.svg)](https://godoc.org/github.com/ipfs/go-ipfs-routing/offline)
+[![GoDoc](https://godoc.org/github.com/fgeth/fg-ipfs-routing/offline?status.svg)](https://godoc.org/github.com/fgeth/fg-ipfs-routing/offline)
 
 ```
-import "github.com/ipfs/go-ipfs-routing/offline"
+import "github.com/fgeth/fg-ipfs-routing/offline"
 ```
 
 Offline is an offline router that can put and get records to and from a local
@@ -55,10 +55,10 @@ Offline is an offline router that can put and get records to and from a local
 
 ### None
 
-[![GoDoc](https://godoc.org/github.com/ipfs/go-ipfs-routing/none?status.svg)](https://godoc.org/github.com/ipfs/go-ipfs-routing/none)
+[![GoDoc](https://godoc.org/github.com/fgeth/fg-ipfs-routing/none?status.svg)](https://godoc.org/github.com/fgeth/fg-ipfs-routing/none)
 
 ```
-import "github.com/ipfs/go-ipfs-routing/none"
+import "github.com/fgeth/fg-ipfs-routing/none"
 ```
 
 None is a router no-op router that doesn't do anything. Puts always succeed and

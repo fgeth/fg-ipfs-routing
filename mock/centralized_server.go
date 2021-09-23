@@ -13,7 +13,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-testing/net"
 
-	offline "github.com/ipfs/go-ipfs-routing/offline"
+	offline "github.com/fgeth/fg-ipfs-routing/offline"
 )
 
 // server is the mockrouting.Client's private interface to the routing server

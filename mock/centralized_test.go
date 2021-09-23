@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/ipfs/go-cid"
-	delay "github.com/ipfs/go-ipfs-delay"
-	u "github.com/ipfs/go-ipfs-util"
+	delay "github.com/fgeth/fg-ipfs-delay"
+	u "github.com/fgeth/fg-ipfs-util"
 
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-testing/net"

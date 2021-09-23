@@ -8,7 +8,7 @@ import (
 	"context"
 
 	ds "github.com/ipfs/go-datastore"
-	delay "github.com/ipfs/go-ipfs-delay"
+	delay "github.com/fgeth/fg-ipfs-delay"
 
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/routing"
